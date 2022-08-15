@@ -1,0 +1,238 @@
+
+body{
+    font-family: 'Raleway', sans-serif !important;
+    color: #393939 !important;
+}
+.fw-semiBold{
+    font-weight: 600;
+}
+.bg-primary{
+    background: #F7F8F9 !important;
+}
+.text-secondary{
+    color: #DA2F93 !important;
+}
+.text-gray{
+    color: #ABABAB !important;
+}
+.bg-secondary{
+    background-color: #DA2F93 !important;
+}
+.border-primary{
+    border-color: #393939 !important;
+}
+a{
+    color: inherit;
+    cursor: pointer !important;
+}
+a:hover{
+    color: #DA2F93;
+}
+img{
+    object-fit: cover !important;
+}
+.text-justify{
+    text-align: justify;
+}
+.top-nav{
+    background-color: #DA2F93;
+}
+nav{
+    padding: 20px 0 !important;
+    position: fixed !important;
+    background: #fff;
+    width: 100%;
+    z-index: 10000;
+}
+nav.sticky {
+    top: 0;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    z-index: 100;
+  }
+nav img{
+    height: 38px;
+}
+nav ul a{
+    text-decoration: none;
+    color: inherit !important;
+}
+header{
+    margin-top: 78px;
+}
+.carousel-caption{
+    bottom: 3rem;
+}
+section{
+    margin-top: 80px;
+}
+.px-6{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.mt-6{
+    margin-top: 70px;
+}
+header{
+    /* background: linear-gradient(253.09deg, rgba(1, 1, 39, 0.3) 0%, rgba(85, 1, 95, 0.3) 100%), url('../img/joey-kyber-45FJgZMXCK8-unsplash.jpg'); */
+    height: 100vh;
+    /* background-position: center;
+    background-size: cover; */
+}
+header .title{
+    max-width: 500px;
+}
+header .text-box{
+    top: 50%;
+    left: 12%;
+}
+.about .icon{
+    font-size: 24px;
+    width: max-content;
+}
+.build .logo{
+    height: 160px;
+}
+.build .dote{
+    padding: 5px;
+    background-color: #DA2F93;
+}
+.work .icon{
+    font-size: 24px;
+    color: #fff;
+    width: 55px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resources li{
+    list-style: inside;
+}
+.resources-card{
+    min-height: 149px;
+}
+.history{
+    background-color: #1C2B33;
+}
+.sponsors .logos{
+    height: 150px;
+    width: 100%;
+}
+.sponsors .logos img{
+    margin-right: 40px;
+}
+.news img{
+    width: 100%;
+    height: 300px;
+}
+.contact .iconify{
+    font-size: 18px;
+    margin-top: 3px;
+}
+.contact input{
+    outline: none;
+}
+footer{
+    background-color: #393939;
+    margin-top: 100px;
+}
+footer a{
+    font-size: 30px;
+}
+.gallery .imgg{
+    vertical-align: middle;
+    height: 500px;
+
+}
+.gallery .img-box{
+    white-space: nowrap;
+}
+.gallery .helper{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.gallery .center img{
+    height: 100% !important;
+    animation-name: test;
+    animation-duration: 4s;
+}
+.gallery .center .helper{
+    display: block !important;
+}
+@keyframes test{
+    0% {
+        height: 100%;
+    }
+    30% {
+        height: 80%;
+    }
+    50%{
+        height: 70%;
+    }
+    100%{
+        height: 500px;
+    }
+}
+
+.gallery .text-box{
+    display: none;
+    text-align: center;
+}
+.gallery .center .text-box{
+    display: block;
+}
+.gallery .owl-carousel{
+    position: relative;
+}
+.gallery .owl-nav{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+}
+.gallery .owl-prev,.gallery .owl-next{
+    background: white !important;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 32px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .work .flex-inverese-sm{
+        flex-direction: column-reverse;
+    }
+    .resources-card{
+        height: 100%;
+    }
+    .history .text-box{
+        padding: 20px 10px !important;
+    }
+    .history .text-box h5{
+        font-size: 16px !important;
+        margin-top: 10px !important;
+    }
+    .imgg{
+        height: 80% !important;
+    }
+}
+@media screen and (max-width: 991px) {
+    .history .text-box{
+        padding: 20px 10px !important;
+    }
+    .history .text-box h5{
+        font-size: 16px !important;
+        margin-top: 10px !important;
+    }
+    .sponsors .logos{
+        height: 100px ;
+    }
+    .imgg{
+        height: 80% !important;
+    }
+}
